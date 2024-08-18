@@ -1,0 +1,39 @@
+body {
+      background-image: url("ice.jpg");
+      background-size: cover;
+      }
+
+      #root {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+      }
+
+      #meme {
+        height: 500px;
+        width: 400px;
+      }
+      button {
+         font-family:"spectral",serif;
+         font-weight: bold;
+         padding: 8px 20px;
+         border: none;
+         border-left: 4px solid #1d3557;
+         border-right: 4px solid #1d3557;
+         margin: 24px 0;
+         font-size: 25px;
+         color: #1d3557;
+         background: #34a0a4;
+         cursor: pointer;
+         transition: all 400ms ease;
+      }
+
+     button:hover{
+       padding: 8px 36px;
+       border-left: 10px solid #1d3557;
+       border-right: 10px solid #1d3557;
+       letter-spacing: 3px;
+       
+     }
